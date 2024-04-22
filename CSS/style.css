@@ -47,3 +47,19 @@ body {
     font-size: 20px;
     font-weight: normal;
 }
+.button_js{
+    text-align: center;
+}
+#myButton{
+    border: none;
+    border-radius: 25px;
+    width: 200;
+    height: 70;
+    background-color: 988160
+    color: #123
+    font-weight: bold;
+}
+#demo img{
+    margin-top: 20px;
+    width: 20%;
+}
