@@ -1,3 +1,30 @@
+.btn_reg {
+    border: none;
+    border-radius: 25px;
+    width: 180px;
+    height: 40px;
+    background-color: #982220;
+    color: #123;
+    font-weight: bold;
+}
+
+.col-12.reg {
+    color: #007bff; 
+    text-align: center;
+    margin-bottom: 30px; 
+}
+.col-12.log {
+    color: #007bff; 
+    text-align: center;
+    margin-bottom: 30px; 
+}
+.col-12.post {
+    text-align: center;
+}
+.row.form_reg{
+    margin: 5px;        
+}
+
 body {
     background-color: #08161e;
     font-family: 'Courier New', Courier, monospace;
@@ -7,14 +34,20 @@ body {
     font-weight: bold;
 
 }
-.nav_text {
+.col-12.auth{
+    color: #ffffff
 }
+.col-12.prof{
+    color: #007bff; 
+    text-align: center;
+    margin-bottom: 30px; 
+}
+
 .container {
     padding: 20px;
     margin: 20px;
 }
-.row {
-}
+
 .col-8 {
     color: #ffffff
 
@@ -53,10 +86,10 @@ body {
 #myButton{
     border: none;
     border-radius: 25px;
-    width: 200;
-    height: 70;
-    background-color: 988160
-    color: #123
+    width: 200px;
+    height: 70px;
+    background-color: #988160;
+    color: #123;
     font-weight: bold;
 }
 #demo img{
