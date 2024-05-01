@@ -30,7 +30,7 @@
 <?php
     require_once('db.php');
     
-    $link = mysqli_connect('127.0.0.1', 'root', 'root', 'first');
+    $link = mysqli_connect('db', 'root', 'root', 'first');
     if (isset($_COOKIE['User'])){
         header("Location: profile.html");
     }
